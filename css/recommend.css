@@ -24,69 +24,69 @@ a{
     background: #e2e2e2;
 }
 .his{
-    margin: 0 15px;
+    margin: 0 50px;
 }
 .search-k{
     width: 80%;
-    height: 40px;
-    margin: 8px 0;
+    height: 92px;
+    margin: 20px 0;
     background: #fff;
-    border-radius: 20px;
+    border-radius: 50px;
     float: left;
     position: relative;
 }
 .search-k-s{
-    width: 20px;
-    height:20px;
-    display:inline-block;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
     position: absolute;
-    left: 15px;
-    top: 10px;
-    background:url("../images/sousuo.png") no-repeat center center;
+    left: 38px;
+    top: 20px;
+    background: url("../images/sousuo.png") no-repeat center center;
     background-size: cover;
     margin-bottom: -4px;
 }
 .search-k-x{
-    width: 20px;
-    height:20px;
-    display:inline-block;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
     position: absolute;
-    right: 0;
-    top: 10px;
-    background:url("../images/shanchu.png") no-repeat center center;
+    right: 38px;
+    top: 20px;
+    background: url("../images/shanchu.png") no-repeat center center;
     background-size: cover;
     margin-bottom: -4px;
 }
 .search-k input{
     display: block;
-    width: 100%;
-    height: 40px;
+    width: 80%;
+    height: 92px;
     background: #fff;
-    border-radius: 20px;
+    border-radius: 50px;
     border: none;
-    font-size: 16px;
+    font-size: 38px;
     color: #4e4e4e;
-    margin-left:40px;
+    margin-left: 100px;
 }
 .search-q{
     width: 20%;
-    height: 40px;
-    line-height: 56px;
+    height: 92px;
+    line-height: 132px;
     text-align: center;
-    font-size: 30px;
+    font-size: 44px;
     float: left;
     color: #4e4e4e;
 }
 
 
 .tell{
-    width: 100%;height: 400px;
+    width: 100%;
 }
 .tell-n{
     width: 100%;
     text-align: center;
-    line-height: 165px;
-    font-size: 30px;
+    line-height: 212px;
+    font-size: 48px;
     color: #4e4e4e;
 }
 
@@ -94,11 +94,12 @@ a{
     width: 290px;height: 122px;
     background:#fed141 ;
     border-radius: 30px;
-    margin: 20px auto;
-    font-size:30px ;
+    margin: 0 auto;
+    font-size:48px ;
     color: #4e4e4e;
     text-align: center;
     line-height: 122px;
+    margin-bottom: 65px;
 }
 
 .recommend{
