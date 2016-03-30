@@ -20,62 +20,68 @@ a{
     box-sizing:border-box;
 }
 /*搜索*/
+
+.clear{
+    clear: both;
+}
 .search{
     width: 100%;height: auto;
     background: #e2e2e2;
 }
+.his{
+    margin: 0 50px;
+}
 .search-k{
-    width: 80%;
-    height: 40px;
-    margin: 8px 0;
+    width: 85%;
+    height: 92px;
+    margin: 20px 0;
     background: #fff;
-    border-radius: 20px;
+    border-radius: 50px;
     float: left;
     position: relative;
 }
 .search-k-s{
-    width: 20px;
-    height:20px;
-    display:inline-block;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
     position: absolute;
-    left: 15px;
-    top: 10px;
-    background:url("../images/sousuo.png") no-repeat center center;
+    left: 38px;
+    top: 20px;
+    background: url("../images/sousuo.png") no-repeat center center;
     background-size: cover;
     margin-bottom: -4px;
 }
 .search-k-x{
-    width: 20px;
-    height:20px;
-    display:inline-block;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
     position: absolute;
-    right: 16px;
-    top: 10px;
-    background:url("../images/shanchu.png") no-repeat center center;
+    right: 38px;
+    top: 20px;
+    background: url("../images/shanchu.png") no-repeat center center;
     background-size: cover;
     margin-bottom: -4px;
 }
 .search-k input{
     display: block;
-    width: 90%;
-    height: 40px;
+    width: 80%;
+    height: 92px;
     background: #fff;
-    border-radius: 20px;
+    border-radius: 50px;
     border: none;
-    font-size: 16px;
+    font-size: 38px;
     color: #4e4e4e;
-    margin-left:40px;
+    margin-left: 100px;
 }
 .search-q{
-    width: 20%;
-    height: 40px;
-    line-height: 56px;
-    text-align: center;
-    font-size: 30px;
+    width: 15%;
+    height: 132px;
+    line-height: 132px;
+    text-align: right;
+    font-size: 44px;
     float: left;
     color: #4e4e4e;
 }
-
 /**/
 
 
