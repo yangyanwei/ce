@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "STXihei";
+    background: #e2e2e2;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;padding: 0;
+    list-style: none;
+    font-weight:normal;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing:border-box;
+}
+/*搜索*/
+.search{
+    width: 100%;height: auto;
+    background: #e2e2e2;
+}
+.search-k{
+    width: 80%;
+    height: 40px;
+    margin: 8px 0;
+    background: #fff;
+    border-radius: 20px;
+    float: left;
+    position: relative;
+}
+.search-k-s{
+    width: 20px;
+    height:20px;
+    display:inline-block;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    background:url("../images/sousuo.png") no-repeat center center;
+    background-size: cover;
+    margin-bottom: -4px;
+}
+.search-k-x{
+    width: 20px;
+    height:20px;
+    display:inline-block;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    background:url("../images/shanchu.png") no-repeat center center;
+    background-size: cover;
+    margin-bottom: -4px;
+}
+.search-k input{
+    display: block;
+    width: 90%;
+    height: 40px;
+    background: #fff;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    color: #4e4e4e;
+    margin-left:40px;
+}
+.search-q{
+    width: 20%;
+    height: 40px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+    color: #4e4e4e;
+}
+
+/**/
+
+
+
+.history{
+    width: 100%;height: auto;
+    background: #fff;
+}
+
+
+
+.his{
+    margin: 0 30px;
+}
+.his-h{
+    height: 126px;
+}
+.history-search,.history-cancel{
+    font-family: STXihei;
+    font-size: 44px;
+
+    float: left;
+}
+.history-search{
+    width: 50%;
+   text-align: left;
+    /*float: left;*/
+    color: #4e4e4e;
+    line-height: 126px;
+}
+.history-cancel{
+    width: 50%;
+    line-height: 126px;
+   text-align: right;
+    color: #fed141;
+}
+
+.xian{
+    width: 100%;height: 3px;
+    background: #e2e2e2;
+}
+
+.Search-record{
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.record{
+    width: 50%;height: 116px;
+    float: left;
+    color: #A0A09C;
+    font-size: 39px;
+    line-height: 116px;
+}
+
+.tiao{
+    width: 100%;
+    height: 44px;
+    background: #e2e2e2;
+}
+
+.hot-search{
+    width: 100%;
+    background: #fff;
+}
+
+.hot{
+    font-size: 44px;
+    color: #4e4e4e;
+    line-height: 126px;
+}
+
+.record-r{
+    background: #fff;
+}
